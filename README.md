@@ -1,1 +1,48 @@
 # languages
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<title>Projeto</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+    <!-- TEXT-->
+<body>
+<div id="container">
+    <div id="profile"><img src="./assets/assets/Profile Iruam Theme=Dark mode.png" alt=""><p>Iruam Candido</p>
+</div>
+<div id="switch" onclick="toggleMode()">
+    <button></button>
+    <span> </span>
+</div>
+
+<ul> 
+    <li>
+        <a href="#"> Deutsch </a>
+    </li>
+
+    <li>
+        <a href="#"> English </a>
+    </li>
+
+    <li>
+        <a href="#"> Italiano </a>
+    </li>
+
+    <li>
+        <a href="#"> 한국어</a>
+    </li>
+</ul>
+
+<div id="social-links">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <ion-icon name="logo-whatsapp"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+    <ion-icon name="mail"></ion-icon>
+    <ion-icon name="logo-github"></ion-icon>
+    <ion-icon name="logo-youtube"></ion-icon>
+</div>
+<script src="./script.js"> </script>
+</body>
+</html>
+
